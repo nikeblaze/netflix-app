@@ -1,0 +1,10 @@
+.mag-info {
+  text-align: center;
+}
+
+.mag-cover {
+  display: flex;
+  overflow-x: auto;
+  align-items: flex-start;
+  width: 100%;
+}
