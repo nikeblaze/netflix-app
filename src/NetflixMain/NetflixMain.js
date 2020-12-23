@@ -4,18 +4,19 @@ import AppLogo from '../AppLogo/AppLogo';
 import NavItem from '../NavItem/NavItem';
 import LoginBtn from '../LoginBtn/LoginBtn';
 import logo from '../assets/netflix-logo.svg'
-import '../NetflixMain/NetflixMain.css';
-import '../AppBar/AppBar.css';
+import './NetflixMain.css';
+
 
 console.log(logo);
 
 
 const netFlixMain = () => {
     return (
-        
-        <AppBar className="main-page">
+        <div className="main-page">
+        <AppBar>
             <AppLogo logo={logo}/> 
         </AppBar>
+        </div>
        
     )
 }

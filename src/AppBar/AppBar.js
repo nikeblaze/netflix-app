@@ -1,8 +1,11 @@
 import React from 'react';
+import './AppBar.css';
 
 const appBar = (props) => {
     return(
-    <div>{props.children}</div>
+    <div className="app-bar">
+        {props.children}
+    </div>
     )
 }
 
