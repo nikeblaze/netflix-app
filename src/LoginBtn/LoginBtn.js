@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import styles from "./LoginBtn.module.css";
 
-const loginBtn = () => {
-    return(
-        <button></button>
-    )
-}
+const loginBtn = (props) => {
+  return (
+    <button className={`${styles.btn}`} onClick={props.login}>
+      Login
+    </button>
+  );
+};
 
 export default loginBtn;
