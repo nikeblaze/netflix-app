@@ -1,9 +1,14 @@
-import './App.css';
-import NetflixMain from './NetflixMain/NetflixMain';
+import "./App.css";
+import NetflixMain from "./NetflixMain/NetflixMain";
+import { BrowserRouter as Router } from "react-router-dom";
+import ShowService from "./Services/showService";
 
 function App() {
   return (
-  <NetflixMain/>
+    <Router>
+      <NetflixMain />
+    </Router>
+    // <ShowService />
   );
 }
 

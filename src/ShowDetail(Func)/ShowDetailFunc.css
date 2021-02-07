@@ -1,0 +1,9 @@
+.show-detail {
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+}
+
+.show-detail__image {
+  max-width: inherit;
+}
